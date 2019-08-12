@@ -18,8 +18,8 @@ I used IntelliJ IDEA to develop the case that involves Scala code.
 
 Minimal requirements for an IDE were:
 
-Support for Java and Scala (also mixed projects)
-Support for Maven with Java and Scala
+- Support for Java and Scala (also mixed projects)
+- Support for Maven with Java and Scala
 
 The regarding codes are located at the below paths.
 
