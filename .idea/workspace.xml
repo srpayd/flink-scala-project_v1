@@ -6,7 +6,16 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="314c7e22-37e3-43ad-96e6-7e14e2f83fe1" name="Default Changelist" comment="" />
+    <list default="true" id="314c7e22-37e3-43ad-96e6-7e14e2f83fe1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-scala-project/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/package1/trendyol_case.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/package1/trendyol_case.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/flink-scala-project.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/flink-scala-project-0.1-shaded.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/flink-scala-project-0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/original-flink-scala-project-0.1.jar" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +33,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -36,6 +48,9 @@
   </component>
   <component name="ProjectId" id="1PHjhOOjQSAfmUY6ftocjvUrHWc" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15277778" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -103,5 +118,16 @@
       <updated>1565538034837</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

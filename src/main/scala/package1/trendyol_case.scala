@@ -19,7 +19,7 @@ object trendyol_case {
     println("env done ...")
 
     // read a CSV file with four fields
-    val csvInput = env.readCsvFile[(Long, Long, String, Long)]("C:\\Users\\srpayd\\Desktop\\TrendyolCase\\Case 1\\flink scala\\case.csv", "\n", "|",quoteCharacter = '"',ignoreFirstLine = true)
+    val csvInput = env.readCsvFile[(Long, Long, String, Long)]("data\\case.csv", "\n", "|",quoteCharacter = '"',ignoreFirstLine = true)
     println("csv input done ...")
 
     csvInput.print()
@@ -44,7 +44,7 @@ object trendyol_case {
 
     val dsTuple1: DataSet[(Long, Long)] = tEnv.toDataSet[(Long, Long)](result1)
 
-    dsTuple1.writeAsCsv("C:\\Users\\srpayd\\Desktop\\TrendyolCase\\Case 1\\flink scala\\result1\\result1.txt","\n","|").setParallelism(1)
+    dsTuple1.writeAsCsv("outputs\\result1.txt","\n","|").setParallelism(1)
     println("writing1 done ...")
     println("\n")
 
@@ -56,7 +56,7 @@ object trendyol_case {
     // convert into tuple
     val dsTuple2: DataSet[(String, Long)] = tEnv.toDataSet[(String, Long)](result2)
 
-    dsTuple2.writeAsCsv("C:\\Users\\srpayd\\Desktop\\TrendyolCase\\Case 1\\flink scala\\result2\\result2.txt", "\n", "|").setParallelism(1)
+    dsTuple2.writeAsCsv("outputs\\result2.txt", "\n", "|").setParallelism(1)
     println("writing2 done ...")
     println("\n")
 
@@ -69,7 +69,7 @@ object trendyol_case {
     // convert into dataset
     val ds3: DataSet[Long] = tEnv.toDataSet(result3)
 
-    ds3.writeAsText("C:\\Users\\srpayd\\Desktop\\TrendyolCase\\Case 1\\flink scala\\result3\\result3.txt").setParallelism(1)
+    ds3.writeAsText("outputs\\result3.txt").setParallelism(1)
     println("writing3 done ...")
     println("\n")
 
@@ -82,7 +82,7 @@ object trendyol_case {
     // convert into tuple
     val dsTuple4: DataSet[(String, Long)] = tEnv.toDataSet[(String, Long)](result4)
 
-    dsTuple4.writeAsCsv("C:\\Users\\srpayd\\Desktop\\TrendyolCase\\Case 1\\flink scala\\result4\\result4.txt", "\n", "|").setParallelism(1)
+    dsTuple4.writeAsCsv("outputs\\result4.txt", "\n", "|").setParallelism(1)
     println("writing4 done ...")
     println("\n")
 
@@ -96,7 +96,7 @@ object trendyol_case {
     val ds5: DataSet[Long] = tEnv.toDataSet(result5)
 
 
-    ds5.writeAsText("C:\\Users\\srpayd\\Desktop\\TrendyolCase\\Case 1\\flink scala\\result5\\result5.txt").setParallelism(1)
+    ds5.writeAsText("outputs\\result5.txt").setParallelism(1)
     println("writing5 done ...")
     println("\n")
 
