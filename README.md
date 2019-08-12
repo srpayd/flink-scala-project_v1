@@ -21,7 +21,16 @@ Minimal requirements for an IDE were:
 Support for Java and Scala (also mixed projects)
 Support for Maven with Java and Scala
 
-The regarding scala code is located at the **src\main\scala\package1\trendyol_case.scala** path.
+The regarding codes are located at the below paths.
+
+
+Source | Location
+------ | --------
+data | data\case.csv
+code | src\main\scala\package1\trendyol_case.scala
+output | outputs\result.txt
+
+
 # Dockerizing the Scala project
 
 Steps for dockerize the project as listed below:
