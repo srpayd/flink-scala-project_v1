@@ -67,4 +67,3 @@ docker build -f Dockerfile -t dockerdemo .
 
 # Details
 
-In the scala code where the input file is readed and outputs are saved are needed to be editted with your local path.
