@@ -1,4 +1,4 @@
-#node'un official image'ini kullanin. versiyon 8
+#node'un official image'ini kullandım. versiyon 8
 FROM java:8
 
 #uygulama 8080 portunu kullaniyor
