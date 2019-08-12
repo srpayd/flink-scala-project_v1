@@ -9,7 +9,7 @@ Prerequisites for building Flink:
 - maven (version 3.2.5)
 
 ```
-git clone https://github.com/apache/flink.git
+git clone https://github.com/srpayd/flink-scala-project.git
 ```
 
 # Developing Flink
