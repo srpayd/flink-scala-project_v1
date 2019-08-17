@@ -66,6 +66,6 @@ docker build -f Dockerfile -t dockerdemo .
 ```
 ```
 
-docker run -d --name flink_container dockerdemo 
+docker run --name flink_container dockerdemo 
 
 ```
