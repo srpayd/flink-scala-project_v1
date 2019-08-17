@@ -42,7 +42,7 @@ Installed the most recent stable version of docker https://docs.docker.com/insta
 
 The first concern is creating a fat jar from the Scala project. We will end up with a fat jar located at the **out\artifacts\flink_scala_project\flink_scala_project.jar** path.
 
-Now the easy part is putting our application inside docker, thus a Dockerfile is needed. *(Dockerfile is needed to store in where we saved the fat jar file.)*
+Now the easy part is putting our application inside a docker container. Once we build a Dockerfile and stored it under the same path of fat jar **out\artifacts\flink_scala_project\Dockerfile**.
 ```
 
 #node'un official image'ini kullandım. versiyon 8
@@ -58,10 +58,14 @@ ENTRYPOINT ["java","-jar","flink_scala_project.jar"]
 
 
 ```
-The last step is building a Docker image. Run the below code on cmd while I am in the path saved the Dockerfile. 
+The last step is building a Docker image and run it inside the container. Run the below codes in the terminal while we are in the location Dockerfile saved.
 ```
 
 docker build -f Dockerfile -t dockerdemo .
 
 ```
+```
 
+docker run dockerdemo 
+
+```
