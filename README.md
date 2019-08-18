@@ -52,9 +52,9 @@ FROM java:8
 EXPOSE 8080
 
 # Install build dependencies and flink
-ADD /C:/Users/srpayd/flink-scala-project/out/artifacts/flink_scala_project_jar/flink_scala_project.jar flink_scala_project.jar
+ADD flink-scala-project.jar flink-scala-project.jar
 
-ENTRYPOINT ["java","-jar","flink_scala_project.jar"]
+ENTRYPOINT ["java","-jar","flink-scala-project.jar"]
 
 
 ```
